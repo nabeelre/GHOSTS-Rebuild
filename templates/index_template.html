@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+{% block metadata %}
+	{{ super() }}
+{% endblock %}
+
+{% block nav %}
+		{{ super() }}
+{% endblock %}
+
+{% block main %}
+	<!-- <img id="logo_img" href="team.html#team" src="../images/logo.jpg" 
+		alt="GHOSTS team"> -->
+	<div id="index_content">
+
+		<div id="index_text">
+			<h1>
+				Welcome,
+			</h1>
+			<p>
+				This is the website for the <b>G</b>alaxy <b>H</b>alos, <b>O</b>uter
+				disks, <b>S</b>ubstructure, <b>T</b>hick disks and <b>S</b>tar 
+				clusters (<b>GHOSTS</b>) survey. The P.I. of the project is 
+				<a href="team.html#pi">Roelof de Jong</a>.
+				<br> <br>
+				An overview of the survey can be read <a href="about.html">here</a>,
+				and a list of the team members can be found 
+				<a href="team.html">here</a>. Publications from the project are  
+				listed <a href="publications.html">here</a> and the current status 
+				of the survey is continually updated <a href="survey.html">here</a>.
+				<br> <br>
+			</p>
+		</div>
+
+		<img id="index_img" href="team.html#team" src="../images/team/team.jpg" 
+		alt="GHOSTS team">
+	</div>
+{% endblock %}
+{% block footer -%} 
+	{{ super() }} 
+{%- endblock %}

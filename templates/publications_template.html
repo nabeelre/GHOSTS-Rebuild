@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Team Members{% endblock %}
+{% block metadata %}
+	{{ super() }}
+{% endblock %}
+
+{% block nav %}
+	{{ super() }}
+{% endblock %}
+
+{% block main %}
+	<div>
+		{% for member in members -%}
+			{{member.age}} years old: {{member.name}}<br>
+		{% endfor %}
+	</div>
+{% endblock %}
+{% block footer %}
+	{{ super() }}
+{% endblock %}

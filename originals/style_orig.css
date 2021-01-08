@@ -1,0 +1,265 @@
+/*Although this site uses DIV elements they are not used in place of tables as the layout of this site does not agree very well with non-CSS2.0 compliant (pre version 3) browsers, which unfortunately are still very much in use.*/
+
+body  {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	font-family: sans-serif, arial, Verdana, Tahoma;
+	font-size: 14px;
+	letter-spacing: 0.em;
+	color: #292929;
+	background-color: #969696;
+/*	text-align: center;*/
+	}
+
+ul,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+{ margin:0; padding:0 }
+a img,:link img,:visited img { border: 0; }
+
+h1	{
+	text-align: left;
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+	}
+h2	{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	color: #7D7D7D;
+	border-bottom:1px solid #ececec;
+	}
+h3	{
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	}
+ul	{
+	font-size: 12px;
+	margin: 10px 10px;
+	}
+li	{
+	font-size: 12px;
+	margin: 10px 10px;
+	}
+table  {
+	border-spacing: 0px;
+	}
+a:link {
+	color: #505096;
+	text-decoration: none;
+	}
+a:visited {
+	color: #195AA0;
+	text-decoration: none;
+	}
+a:hover{
+	color: red;
+	text-decoration: none;
+	}
+a:active{
+	font-weight: bold;
+	}
+a.b_lnk:link{
+	color: #999999;
+	text-decoration: none;
+	}
+a.b_lnk:visited{
+	color: #999999;
+	text-decoration: none;
+	}
+a.b_lnk:hover{
+	color: red;
+	text-decoration: none;
+	}
+a.b_lnk:active{
+	color: red;
+	text-decoration: none;
+	}
+a.data:link{
+	color: #000000;
+	text-decoration: none;
+	}
+a.data:visited{
+	color: #000000;
+	text-decoration: none;
+	}
+a.data:hover{
+	color: red;
+	text-decoration: none;
+	}
+a.data:active{
+	color: red;
+	text-decoration: none;
+	}
+a.m_lnk:link{
+	color: white;
+	text-decoration: none;
+	}
+a.m_lnk:visited{
+	color: white;
+	text-decoration: none;
+	}
+a.m_lnk:hover{
+	color: red;
+	text-decoration: none;
+	}
+a.m_lnk:active{
+	color: red;
+	text-decoration: none;
+	}
+a.ma_lnk:link{
+	color: #195AA0;
+	text-decoration: none;
+	}
+a.ma_lnk:visited{
+	color: #195AA0;
+	text-decoration: none;
+	}
+a.ma_lnk:hover{
+	color: red;
+	text-decoration: none;
+	}
+a.ma_lnk:active{
+	color: red;
+	text-decoration: none;
+	}
+a.lnk:link{
+	color: #195AA0;
+	text-decoration: none;
+	}
+a.lnk:visited{
+	color: #195AA0;
+	text-decoration: none;
+	}
+a.lnk:hover{
+	color: red;
+	text-decoration: none;
+	}
+a.lnk:active{
+	color: red;
+	text-decoration: none;
+	}
+#homepage a#homelink,
+#areapage a#arealink,
+#mbrspage a#mbrslink,
+#pupppage a#pupplink,
+#cntcpage a#cntclink{
+	font-weight: bold;
+	}
+#wrap	{
+	width: 760px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 0px;
+	border: 0;
+	display: block;
+	background-color: #969696;
+	}
+
+#menu	{
+	width: 730px;
+	height: 290px;
+	margin-left:auto;
+	margin-right:auto;
+	color: white;
+	text-align: right;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 0;
+	padding-top: 50px;
+	padding-right: 30px;
+	border: 0;
+	background:url('../images/logo.jpg')  top left;
+	}
+
+#header	{
+	width: 730px;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 0px;
+	background: #000000;
+	}
+
+#header td{
+        width: 360px;
+	}
+
+#header h1{
+	text-align: left;
+	color: #ffffff;
+	}
+
+#header a{
+	text-align: right;
+	font-size: 22px;
+	font-weight: bold;
+	}
+
+#header2	{
+	width: 0px;
+	padding: 0px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 0px;
+	background: #000000;
+	}
+
+
+#main	{
+	background-color: #efefef;
+	width: 730px;
+	padding: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #292929;
+	text-align: justify;
+	font-size: 14px;
+	}
+
+#caption td {
+        padding: 0px;
+	margin: 0px;
+	}
+
+#caption2	{
+	background-color: #efefef;
+	width: 730px;
+	padding: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #292929;
+	text-align: center;
+	font-size: 11px;
+	}
+#pub {
+    width: 660px;
+    padding-left: 40px;
+    }
+#main p	{
+	margin-top: 10px;
+	}
+#main p2	{
+	margin-top: 0px;
+	algin: justify;
+	}
+#main p3	{
+	margin-top: 20px;
+	}
+#main pcaption	{
+	font-size: 11px;
+	}
+#footer{
+	background-color: #000000;
+	width: 730px;
+	padding: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	clear: both;
+	color: #5e5e5e;
+	font-size: 11px;
+	text-align: center;
+	}

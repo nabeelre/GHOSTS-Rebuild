@@ -1,0 +1,35 @@
+[
+  {
+    "title": "index",
+    "template": "index_template.html",
+    "context": {  }
+  },
+
+  {
+    "title": "about",
+    "template": "about_template.html",
+    "context": {  }
+  },
+
+  {
+    "title": "team",
+    "template": "team_template.html",
+    "context": {
+                 "members" : [ 
+                     {"name": "Jane Doe", "age":31},
+                     {"name": "John Doe", "age":40}
+                  ]
+               }
+  },
+
+  {
+    "title": "publications",
+    "template": "publications_template.html",
+    "context": {
+                 "members" : [ 
+                     {"name": "Jane Doe", "age":31},
+                     {"name": "John Doe", "age":40}
+                  ]
+               }
+  }
+]
