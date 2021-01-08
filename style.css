@@ -204,3 +204,32 @@ p {
 	padding: 5px;
 }
 
+/*                     */
+/*  team.html specific */
+/*                     */
+
+.page_title {
+	padding-left: 10px;
+}
+
+.member_block {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+
+.member_img {
+	width: 100px;
+}
+
+.member_body {
+	padding-left: 25px;
+	width: 1000px;
+}
+
+.member_name {
+	font-size: 16pt;
+	font-weight: bold;
+	padding-bottom: 15px;
+	margin: 0px;
+}

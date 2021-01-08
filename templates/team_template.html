@@ -10,11 +10,61 @@
 {% endblock %}
 
 {% block main %}
+	<h2 class="page_title">GHOSTS Team Members</h2>
+	<div class="member_block">
+		<div>
+			<img class="member_img" src="../images/team/{{PI.img}}">
+		</div>
+		<div class="member_body">
+			<p class="member_name">
+				<a href="{{PI.link}}" target="blank_">{{PI.name}}</a>
+			</p>
+			{{PI.desc}}
+		</div>	
+	</div>
+
+	<br> <h3>
+		&nbsp;&nbsp;
+		the current team members in alphabetical order:
+	</h3>
+	
 	<div>
 		{% for member in members -%}
-			{{member.name}}, is {{member.age}} years old<br>
+			<div class="member_block">
+				<div>
+					<img class="member_img" src="../images/team/{{member.img}}">
+				</div>
+				<div class="member_body">
+					<p class="member_name">
+						<a href="{{member.link}}" target="blank_">{{member.name}}</a>
+					</p>
+					{{member.desc}}
+				</div>	
+			</div>
 		{% endfor %}
 	</div>
+
+	<br> <h3>
+		&nbsp;&nbsp;
+		former team members in alphabetical order:
+	</h3>
+
+	<div>
+		{% for member in formers -%}
+			<div class="member_block">
+				<div>
+					<img class="member_img" src="../images/team/{{member.img}}">
+				</div>
+				<div class="member_body">
+					<p class="member_name">
+						<a href="{{member.link}}" target="blank_">{{member.name}}</a>
+					</p>
+					{{member.desc}}
+				</div>	
+			</div>
+		{% endfor %}
+	</div>
+
 {% endblock %}
 {% block footer %}
 	{{ super() }}

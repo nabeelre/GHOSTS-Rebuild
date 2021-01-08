@@ -15,21 +15,37 @@
     "title": "team",
     "template": "team_template.html",
     "context": {
+                 "PI" : {"name": "Roelof de Jong", 
+                         "img":  "roelof.jpg", 
+                         "link": "http://www.aip.de/people/rdejong",
+                         "desc": "Dr. de Jong is the Principle Investigator of the GHOSTS project, and leads the Galactic Archeaology and Near-Field Cosmology group at AIP, Potsdam."
+                        },
+                
                  "members" : [ 
-                     {"name": "Jane Doe", "age":31},
-                     {"name": "John Doe", "age":40}
-                  ]
-               }
-  },
+                        {"name": "Eric Bell", 
+                          "img":  "eric.jpg", 
+                          "link": "http://www.astro.lsa.umich.edu/~ericbell",
+                          "desc": "Prof. Bell is an Associate Professor at the University of Michigan."
+                         },
+                         {"name": "Thomas Brown", 
+                          "img":  "tom.jpg", 
+                          "link": "http://www.stsci.edu/~tbrown",
+                          "desc": "Dr. Brown is an Assoicate Astronomer at the Space Telescope Science Institute."
+                        }
+                  ],
 
-  {
-    "title": "publications",
-    "template": "publications_template.html",
-    "context": {
-                 "members" : [ 
-                     {"name": "Jane Doe", "age":31},
-                     {"name": "John Doe", "age":40}
-                  ]
+                  "formers" : [ 
+                    {"name": "Jeremy Bailin", 
+                      "img":  "jeremy.jpg", 
+                      "link": "http://www.astro.lsa.umich.edu/~jbailin",
+                      "desc": "Dr. Bailin is a Postdoctoral Researcher at the University of Michigan."
+                    },
+                    {"name": "James Bullock", 
+                      "img":  "james.jpg", 
+                      "link": "http://www.physics.uci.edu/~bullock",
+                      "desc": "Prof. Bullock is a Professor at the University of California, Irvine."
+                     }
+              ]
                }
   }
 ]
