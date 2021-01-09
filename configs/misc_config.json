@@ -1,47 +1,50 @@
 [
   {
     "title": "index",
+    "out_path": "",
     "template": "index_template.html",
     "context": {  }
   },
 
   {
     "title": "about",
+    "out_path": "",
     "template": "about_template.html",
     "context": {  }
   },
 
   {
     "title": "team",
+    "out_path": "",
     "template": "team_template.html",
     "context": {
-                 "PI" : {"name": "Roelof de Jong", 
-                         "img":  "roelof.jpg", 
+                 "PI" : {"name": "Roelof de Jong",
+                         "img":  "roelof.jpg",
                          "link": "http://www.aip.de/people/rdejong",
                          "desc": "Dr. de Jong is the Principle Investigator of the GHOSTS project, and leads the Galactic Archeaology and Near-Field Cosmology group at AIP, Potsdam."
                         },
-                
-                 "members" : [ 
-                        {"name": "Eric Bell", 
-                          "img":  "eric.jpg", 
+
+                 "members" : [
+                        {"name": "Eric Bell",
+                          "img":  "eric.jpg",
                           "link": "http://www.astro.lsa.umich.edu/~ericbell",
                           "desc": "Prof. Bell is an Associate Professor at the University of Michigan."
                          },
-                         {"name": "Thomas Brown", 
-                          "img":  "tom.jpg", 
+                         {"name": "Thomas Brown",
+                          "img":  "tom.jpg",
                           "link": "http://www.stsci.edu/~tbrown",
                           "desc": "Dr. Brown is an Assoicate Astronomer at the Space Telescope Science Institute."
                         }
                   ],
 
-                  "formers" : [ 
-                    {"name": "Jeremy Bailin", 
-                      "img":  "jeremy.jpg", 
+                  "formers" : [
+                    {"name": "Jeremy Bailin",
+                      "img":  "jeremy.jpg",
                       "link": "http://www.astro.lsa.umich.edu/~jbailin",
                       "desc": "Dr. Bailin is a Postdoctoral Researcher at the University of Michigan."
                     },
-                    {"name": "James Bullock", 
-                      "img":  "james.jpg", 
+                    {"name": "James Bullock",
+                      "img":  "james.jpg",
                       "link": "http://www.physics.uci.edu/~bullock",
                       "desc": "Prof. Bullock is a Professor at the University of California, Irvine."
                      }

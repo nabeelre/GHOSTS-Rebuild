@@ -6,23 +6,12 @@ import os
 import jinja2
 
 
-def generate_misc():
+def generate(group):
     """Templated static website generator."""
     # Reads data for index and about page out of misc_config.json
-    with open('configs/misc_config.json') as json_file:
+    with open('configs/' + group + '_config.json') as json_file:
         json_data = json.load(json_file)
-        print("loaded misc_config.json")
-
-    out_path = "html/"
-
-    # Creates output directory if necessary
-    try:
-        if not os.path.exists(out_path):
-            os.makedirs(out_path)
-            print("created " + out_path + " directory")
-    except OSError:
-        print("Error managing directories")
-        sys.exit(1)
+        print("loaded " + group + "_config.json")
 
     try:
         # Fetch template with name specified
@@ -47,18 +36,35 @@ def generate_misc():
             sys.exit(1)
 
         try:
-            write_path = os.path.join(out_path, page['title'] + ".html")
-            outfile = open(write_path, "w")
+            out_path = os.path.join("html/", page['out_path'])
+            if not os.path.exists(out_path):
+                os.makedirs(out_path)
+                print("created " + out_path + " directory")
+            file_path = os.path.join(out_path, page['title'] + ".html")
+            outfile = open(file_path, "w")
             outfile.write(output)
             outfile.close()
-            print("wrote", page['title'] + ".html")
-        except IOError:
+            print("wrote", file_path)
+
+        except IOError or OSError:
             print("Error writing file out")
             sys.exit(1)
+    print()
+    print("DONE WRITING " + group)
+    print()
 
 def main():
     """Top level command line interface."""
-    generate_misc()
+    group = input("Input group name to generate: (misc, survey, galaxy, field) ")
+    if group == 'all':
+        generate("misc")
+        generate("survey")
+        generate("galaxy")
+        generate("field")
+        print('ALL GENERATING COMPLETE')
+        print()
+    else:
+        generate(group)
 
 
 if __name__ == "__main__":

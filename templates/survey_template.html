@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+{% block metadata %}
+	{{ super() }}
+{% endblock %}
+
+{% block nav %}
+		{{ super() }}
+{% endblock %}
+
+{% block main %}
+	<h2 class="page_title">GHOSTS Survey Galaxies</h2>
+
+	{% for i in range(0, (galaxies|length)|int, 2) %}
+        <div class='survey_row'>
+			<div class='survey_gal_block'>
+				<img class='survey_img' src='../images/{{galaxies[i].name}}/{{galaxies[i].name}}.jpg'>
+				{{galaxies[i].name}} and {{galaxies[i].RA}}
+			</div>
+			{% if (i+1) <= (galaxies|length-1)%}
+			<div  class='survey_gal_block'>
+				<img class='survey_img' src='../images/{{galaxies[i+1].name}}/{{galaxies[i+1].name}}.jpg'>
+				{{galaxies[i+1].name}} and {{galaxies[i+1].dist}}
+			</div>
+			{% endif %}
+        </div>
+	{% endfor %}
+{% endblock %}
+
+{% block footer -%}
+	{{ super() }}
+{%- endblock %}
