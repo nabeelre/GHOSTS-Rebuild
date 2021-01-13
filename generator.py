@@ -9,9 +9,15 @@ import jinja2
 def generate(group):
     """Templated static website generator."""
     # Reads data for index and about page out of misc_config.json
-    with open('configs/' + group + '_config.json') as json_file:
-        json_data = json.load(json_file)
-        print("loaded " + group + "_config.json")
+    try:
+        with open('configs/' + group + '_config.json') as json_file:
+            json_data = json.load(json_file)
+            print("loaded " + group + "_config.json")
+    except FileNotFoundError as err:
+        print("Error finding config file for specified group")
+        print("Specified group may not exist")
+        print(err)
+        sys.exit(1)
 
     try:
         # Fetch template with name specified

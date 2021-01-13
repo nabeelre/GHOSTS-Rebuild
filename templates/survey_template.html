@@ -15,13 +15,34 @@
 	{% for i in range(0, (galaxies|length)|int, 2) %}
         <div class='survey_row'>
 			<div class='survey_gal_block'>
-				<img class='survey_img' src='../images/{{galaxies[i].name}}/{{galaxies[i].name}}.jpg'>
-				{{galaxies[i].name}} and {{galaxies[i].RA}}
+				<a href='{{galaxies[i].name}}/{{galaxies[i].name}}.html'>
+					<img class='survey_img' src='../images/{{galaxies[i].name}}/{{galaxies[i].name}}.jpg'>
+				</a>
+				<div class='survey_gal_desc'>
+					<a href='{{galaxies[i].name}}/{{galaxies[i].name}}.html'><b>{{galaxies[i].name}}</b></a> <br>
+					<b>RA</b>: {{galaxies[i].RA}} <br>
+					<b>Dec</b>: {{galaxies[i].RA}} <br>
+					<b>Distance</b>: {{galaxies[i].RA}} <br>
+					<b>B_T</b>: {{galaxies[i].RA}} <br>
+					<b>V_rot</b>: {{galaxies[i].RA}} <br>
+					<b>Morphology</b>: {{galaxies[i].RA}} <br>
+				</div>
 			</div>
+
 			{% if (i+1) <= (galaxies|length-1)%}
-			<div  class='survey_gal_block'>
-				<img class='survey_img' src='../images/{{galaxies[i+1].name}}/{{galaxies[i+1].name}}.jpg'>
-				{{galaxies[i+1].name}} and {{galaxies[i+1].dist}}
+			<div class='survey_gal_block'>
+				<a href='{{galaxies[i+1].name}}/{{galaxies[i+1].name}}.html'>
+					<img class='survey_img' src='../images/{{galaxies[i+1].name}}/{{galaxies[i+1].name}}.jpg'>
+				</a>
+				<div class='survey_gal_desc'>
+					<a href='{{galaxies[i+1].name}}/{{galaxies[i+1].name}}.html'><b>{{galaxies[i+1].name}}</b></a> <br>
+					<b>RA</b>: {{galaxies[i+1].RA}} <br>
+					<b>Dec</b>: {{galaxies[i+1].RA}} <br>
+					<b>Distance</b>: {{galaxies[i+1].RA}} <br>
+					<b>B_T</b>: {{galaxies[i+1].RA}} <br>
+					<b>V_rot</b>: {{galaxies[i+1].RA}} <br>
+					<b>Morphology</b>: {{galaxies[i+1].RA}} <br>
+				</div>
 			</div>
 			{% endif %}
         </div>
