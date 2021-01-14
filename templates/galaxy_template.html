@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block path_adjust %}../{% endblock %}
+{% block title %}Home{% endblock %}
+{% block metadata %}
+	{{ super() }}
+{% endblock %}
+
+{% block nav %}
+		{{ super() }}
+{% endblock %}
+
+{% block main %}
+    <h2 class="page_title">{{ name }}</h2>
+    <p>Click on a field for more information.</p>
+    <img src="../../images/{{name}}/{{name}}.jpg" class="galaxy_main" usemap="#fields">
+
+    <map name="fields">
+        {% for field in fields -%}
+            <area shape="polygon" coords="{{field.coords}}" href="{{name}}-field{{'%02d' % loop.index}}.html" alt="field{{'%02d' % loop.index}}">
+        {% endfor -%}
+    </map>
+{% endblock %}
+{% block footer -%}
+	{{ super() }}
+{%- endblock %}

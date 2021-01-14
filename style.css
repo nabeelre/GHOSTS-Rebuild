@@ -251,3 +251,17 @@ p {
 	max-width: 500px;
 	padding: 12px;
 }
+
+/*                     */
+/* galaxy.html specific*/
+/*                     */
+
+.galaxy_main {
+	width: 730px;
+	border: 0;
+	padding: 10px;
+}
+
+area {
+	z-index: -1;
+}

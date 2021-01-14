@@ -1,0 +1,49 @@
+[
+    {
+        "title": "ngc0247",
+        "out_path": "ngc0247/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC0247",
+            "fields": [
+                {"coords": "412,343,396,291,342,304,358,356"},
+                {"coords": "323,412,391,425,408,357,341,346"},
+                {"coords": "314,475,381,487,398,420,331,409"},
+                {"coords": "283,533,351,545,368,477,301,466"},
+                {"coords": "245,304,211,364,270,402,302,342"}
+            ]
+        }
+    },
+    {
+        "title": "ngc0253",
+        "out_path": "ngc0253/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC0253"
+        }
+    },
+    {
+        "title": "ngc0300",
+        "out_path": "ngc0300/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC0300"
+        }
+    },
+    {
+        "title": "ngc0891",
+        "out_path": "ngc0891/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC0891"
+        }
+    },
+    {
+        "title": "ngc2403",
+        "out_path": "ngc2403/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC2403"
+        }
+    }
+]

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	{%- block metadata -%}
 	<meta name="title" content="GHOSTS">
 	<meta name="subject" content="The GHOSTS Survey.">
 	<meta name="description" content="Homepage of the GHOSTS project.">
@@ -9,35 +8,38 @@
 								   galaxy halos, resolved, stellar populations">
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="googlebot" content="noindex, nofollow">
-	<link href="{% block path_adjust %}{% endblock %}../style.css" rel="stylesheet" type="text/css">
-	<title>{% block title %}{% endblock %} - GHOSTS</title>
-	{%- endblock -%}
+	<link href="../../style.css" rel="stylesheet" type="text/css">
+	<title>Home - GHOSTS</title>
 </head>
 
 <body>
 <div id="wrapper">
 <div id="nav">
-	{%- block nav -%}
-	<div id="title">GHOSTS HST Survey</div>
+		<div id="title">GHOSTS HST Survey</div>
 	<div id="nav_links_wrapper">
-		<div class="nav_link"><a href="{{ self.path_adjust() }}index.html">Home</a></div>
-		<div class="nav_link"><a href="{{ self.path_adjust() }}about.html">About GHOSTS</a></div>
-		<div class="nav_link"><a href="{{ self.path_adjust() }}team.html">Team Members</a></div>
+		<div class="nav_link"><a href="../index.html">Home</a></div>
+		<div class="nav_link"><a href="../about.html">About GHOSTS</a></div>
+		<div class="nav_link"><a href="../team.html">Team Members</a></div>
 		<div class="nav_link"><a href="https://ui.adsabs.harvard.edu/public-libraries/wnNJ83CHTaWFXY60wwIgiw" target="_blank">Publications</a></div>
-		<div class="nav_link"><a href="{{ self.path_adjust() }}survey.html">The Survey</a></div>
+		<div class="nav_link"><a href="../survey.html">The Survey</a></div>
 	</div>
-	{%- endblock -%}
 </div>
-<div id="main">{% block main %}{% endblock %}</div>
+<div id="main">
+    <h2 class="page_title">NGC0891</h2>
+    <p>Click on a field for more information.</p>
+    <img src="../../images/NGC0891/NGC0891.jpg" class="galaxy_main" usemap="#fields">
+
+    <map name="fields">
+        </map>
+    <!-- Coords: TL x, y , TR x, y , BR x, y , BL x, y -->
+</div>
 </div>
 
 <div id="footer">
 <div id="footer-content">
-	{% block footer -%}
 	2015 Roelof de Jong, and the GHOSTS team. Leibniz-Institut fuer
 	Astrophysik Potsdam (AIP), An der Sternwarte 16, 14482 Potsdam, Germany
 	<br> email: rdejong at aip dot de
-	{%- endblock %}
 </div>
 </div>
 
