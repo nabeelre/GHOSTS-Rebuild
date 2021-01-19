@@ -23,29 +23,65 @@
          "PI":{
             "name":"Roelof de Jong",
             "img":"roelof.jpg",
-            "link":"http://www.aip.de/people/rdejong",
-            "desc":"Dr. de Jong is the Principle Investigator of the GHOSTS project, and leads the Galactic Archeaology and Near-Field Cosmology group at AIP, Potsdam."
+            "link":"https://www.aip.de/Members/rdejong",
+            "desc":"Dr. de Jong is the Principle Investigator of the GHOSTS project, and leads the Milky Way and Local Volume group at the AIP."
          },
          "members":[
             {
                "name":"Eric Bell",
                "img":"eric.jpg",
-               "link":"http://www.astro.lsa.umich.edu/~ericbell",
-               "desc":"Prof. Bell is an Associate Professor at the University of Michigan."
+               "link":"https://lsa.umich.edu/astro/people/core-faculty/ericbell.html",
+               "desc":"Prof. Bell is a Professor at the University of Michigan."
             },
             {
-               "name":"Thomas Brown",
-               "img":"tom.jpg",
-               "link":"http://www.stsci.edu/~tbrown",
-               "desc":"Dr. Brown is an Assoicate Astronomer at the Space Telescope Science Institute."
+               "name":"Jeremy Bailin",
+               "img":"jeremy.jpg",
+               "link":"https://physics.ua.edu/profiles/jeremy-bailin/",
+               "desc":"Dr. Bailin is an Associate Professor at the University of Alabama."
+            },
+            {
+               "name":"Antonela Monachesi",
+               "img":"antonela.jpg",
+               "link":"http://astro.userena.cl/integrantes.php",
+               "desc":"Dr. Monachesi is an Assistant Professor at the University of La Serena."
+            },
+            {
+               "name":"Ivan Minchev",
+               "img":"ivan.jpg",
+               "link":"https://www.aip.de/Members/iminchev",
+               "desc":""
+            },
+            {
+               "name":"In Sung Jang",
+               "img":"insung.jpg",
+               "link":"https://astrophysics.uchicago.edu/people/profile/in-sung-jang/",
+               "desc":"Dr. Jang is a postdoctoral scholar at the University of Chicago."
+            },
+            {
+               "name":"Benne W. Holwerda",
+               "img":"benne.jpg",
+               "link":"https://home.strw.leidenuniv.nl/~holwerda/Welcome.html",
+               "desc":"Dr. Holwerda is a postdoctoral researcher at Leiden Observatory in the Netherlands."
+            },
+            {
+               "name":"Adam Smercina",
+               "img":"adam.jpg",
+               "link":"https://adamsmercina.wixsite.com/astrosmercina",
+               "desc":"Dr. Smercina is a postdoctoral research fellow at the University of Washington."
+            },
+            {
+               "name":"Richard D'Souza",
+               "img":"richard.jpg",
+               "link":"http://www.vaticanobservatory.va/content/specolavaticana/en/who-are-we-/staff/richard-a--d-souza--s-j-.html",
+               "desc":"Dr. D'Souza is a staff astronomer at the Vatican Observatory."
             }
          ],
          "formers":[
             {
-               "name":"Jeremy Bailin",
-               "img":"jeremy.jpg",
-               "link":"http://www.astro.lsa.umich.edu/~jbailin",
-               "desc":"Dr. Bailin is a Postdoctoral Researcher at the University of Michigan."
+                "name":"Thomas Brown",
+                "img":"tom.jpg",
+                "link":"http://www.stsci.edu/~tbrown",
+                "desc":"Dr. Brown is an Assoicate Astronomer at the Space Telescope Science Institute."
             },
             {
                "name":"James Bullock",

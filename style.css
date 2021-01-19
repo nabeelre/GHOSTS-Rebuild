@@ -218,7 +218,14 @@ p {
 }
 
 .member_img {
-	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.member_img_wrapper {
+	min-width: 100px;
 }
 
 .member_body {

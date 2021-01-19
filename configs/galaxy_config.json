@@ -45,5 +45,117 @@
         "context": {
             "name": "NGC2403"
         }
+    },
+    {
+        "title": "ngc3031",
+        "out_path": "ngc3031/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC3031"
+        }
+    },
+    {
+        "title": "ngc3510",
+        "out_path": "ngc3510/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC3510"
+        }
+    },
+    {
+        "title": "ngc4244",
+        "out_path": "ngc4244/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC4244"
+        }
+    },
+    {
+        "title": "ngc4565",
+        "out_path": "ngc4565/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC4565"
+        }
+    },
+    {
+        "title": "ngc4631",
+        "out_path": "ngc4631/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC4631"
+        }
+    },
+    {
+        "title": "ngc4736",
+        "out_path": "ngc4736/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC4736"
+        }
+    },
+    {
+        "title": "ngc4945",
+        "out_path": "ngc4945/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC4945"
+        }
+    },
+    {
+        "title": "ngc5023",
+        "out_path": "ngc5023/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC5023"
+        }
+    },
+    {
+        "title": "ngc5236",
+        "out_path": "ngc5236/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC5236"
+        }
+    },
+    {
+        "title": "ngc5457",
+        "out_path": "ngc5457/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC5457"
+        }
+    },
+    {
+        "title": "ngc5907",
+        "out_path": "ngc5907/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC5907"
+        }
+    },
+    {
+        "title": "ngc7793",
+        "out_path": "ngc7793/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC7793"
+        }
+    },
+    {
+        "title": "ngc7814",
+        "out_path": "ngc7814/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "NGC7814"
+        }
+    },
+    {
+        "title": "ic5052",
+        "out_path": "ic5052/",
+        "template": "galaxy_template.html",
+        "context": {
+            "name": "ic5052"
+        }
     }
 ]
