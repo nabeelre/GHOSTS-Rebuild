@@ -17,7 +17,7 @@
 
     <map name="fields">
         {% for field in fields -%}
-            <area shape="polygon" coords="{{field.coords}}" href="{{name}}-field{{'%02d' % loop.index}}.html" alt="field{{'%02d' % loop.index}}">
+            <area shape="polygon" coords="{{field.coords}}" href="{{name}}-field{{'%02d' % loop.index}}.html">
         {% endfor -%}
     </map>
 {% endblock %}
