@@ -1,3 +1,11 @@
 [
-  {}
+    {
+        "title": "ngc0247-field01",
+        "out_path": "ngc0247/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0247",
+            "fieldnum": "01"
+        }
+    }
 ]

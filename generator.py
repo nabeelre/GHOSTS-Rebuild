@@ -1,7 +1,5 @@
 """Build static HTML site from directory of HTML templates and plain files."""
 import json
-import sys
-import shutil
 import os
 import jinja2
 
@@ -17,7 +15,7 @@ def generate(group):
         print("Error finding config file for specified group")
         print("Specified group may not exist")
         print(err)
-        sys.exit(1)
+        exit(1)
 
     try:
         # Fetch template with name specified
@@ -29,7 +27,7 @@ def generate(group):
     except jinja2.TemplateError as err:
         print("Template Error setting up loader")
         print(err)
-        sys.exit(1)
+        exit(1)
 
     # do templating and write file out
     for page in json_data:
@@ -39,7 +37,7 @@ def generate(group):
             print("templated", page['title'] + ".html")
         except jinja2.TemplateError:
             print("Template Error getting and rendering")
-            sys.exit(1)
+            exit(1)
 
         try:
             out_path = os.path.join("html/", page['out_path'])
@@ -54,7 +52,7 @@ def generate(group):
 
         except IOError or OSError:
             print("Error writing file out")
-            sys.exit(1)
+            exit(1)
     print()
     print("DONE WRITING " + group)
     print()

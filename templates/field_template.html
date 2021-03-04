@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block path_adjust %}../{% endblock %}
+{% block title %}Home{% endblock %}
+{% block metadata %}
+	{{ super() }}
+{% endblock %}
+
+{% block nav %}
+		{{ super() }}
+{% endblock %}
+
+{% block main %}
+    <h2 class="page_title">{{galname}}-field{{fieldnum}}</h2>
+    <div class="field_wrapper">
+        <a href="{{galname}}.html">&nbsp;&nbsp;Back to {{galname}}</a>
+        <div class="field_img_switcher">
+            <div class="controllers">
+                <img src="../../images/{{galname}}/{{galname}}.jpg" class="filter_controller">
+                <img src="../../images/{{galname}}/{{galname}}.jpg" class="stars_controller">
+                <img src="../../images/{{galname}}/{{galname}}.jpg" class="mask_controller">
+                <img src="../../images/{{galname}}/{{galname}}.jpg" class="afs_controller">
+            </div>
+            <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_color.jpg" class="field_main_img">
+        </div>
+        <div class="field_descrip">
+            <div>
+                text
+            </div>
+            <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_cmd.png" class="field_cmd">
+        </div>
+
+        <div class="field_diagnostics">
+            <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_sharp.png" class="field_diag_img">
+            <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_round.png" class="field_diag_img">
+            <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_crowd.png" class="field_diag_img">
+            <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_chi.png" class="field_diag_img">
+        </div>
+    </div>
+
+
+{% endblock %}
+{% block footer -%}
+	{{ super() }}
+{%- endblock %}

@@ -273,3 +273,77 @@ p {
 area {
 	z-index: -1;
 }
+
+/*                     */
+/* fileld.html specific*/
+/*                     */
+
+.field_wrapper {
+	max-width: 1000px;
+	border: 0;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.field_img_switcher {
+	display: flex;
+	flex-direction: row;
+	max-width: 1000px
+}
+
+.field_main_img {
+	max-height: 600px;
+	width: auto;
+}
+
+.controllers {
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	width: 50px;
+	padding-right: 10px;
+}
+
+.filter_controller {
+	height: 170px;
+	width: 50px;
+	padding-bottom: 10px;
+}
+
+.stars_controller {
+	height: 170px;
+	width: 50px;
+	padding-bottom: 10px;
+}
+
+.mask_controller {
+	height: 60px;
+	width: 50px;
+	padding-bottom: 10px;
+}
+
+.afs_controller {
+	height: 170px;
+	width: 50px;
+}
+
+.field_descrip {
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+	max-height: 550px;
+}
+
+.field_cmd {
+	height: auto;
+	max-width: 300px;
+	padding-bottom: 10px;
+}
+
+
+
+.field_diag_img {
+	max-width: 650px;
+	padding-bottom: 10px;
+}
