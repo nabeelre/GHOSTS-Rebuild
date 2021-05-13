@@ -5,7 +5,11 @@
         "template": "field_template.html",
         "context": {
             "galname": "NGC0247",
-            "fieldnum": "01"
+            "fieldnum": "01",
+            "distmod": 0.00,
+            "distmod_unc": 0.00,
+            "dist": 0.00,
+            "dist_unc": 0.00
         }
     }
 ]

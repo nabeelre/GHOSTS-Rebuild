@@ -16,6 +16,14 @@
       }
    },
    {
+      "title":"data",
+      "out_path":"",
+      "template":"data_template.html",
+      "context":{
+
+      }
+   },
+   {
       "title":"team",
       "out_path":"",
       "template":"team_template.html",

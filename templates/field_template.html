@@ -12,22 +12,52 @@
 
 {% block main %}
     <h2 class="page_title">{{galname}}-field{{fieldnum}}</h2>
+	<h3><a href="{{galname}}.html">&nbsp;&nbsp;Back to {{galname}}</a></h3>
     <div class="field_wrapper">
-        <a href="{{galname}}.html">&nbsp;&nbsp;Back to {{galname}}</a>
         <div class="field_img_switcher">
             <div class="controllers">
-                <img src="../../images/{{galname}}/{{galname}}.jpg" class="filter_controller">
-                <img src="../../images/{{galname}}/{{galname}}.jpg" class="stars_controller">
-                <img src="../../images/{{galname}}/{{galname}}.jpg" class="mask_controller">
-                <img src="../../images/{{galname}}/{{galname}}.jpg" class="afs_controller">
+                <img src="../../images/filter_switcher.png" class="filter_controller">
+                <img src="../../images/stars_switcher.png" class="stars_controller">
+                <img src="../../images/mask_switcher.png" class="mask_controller">
+                <img src="../../images/afs_switcher.png" class="afs_controller">
             </div>
             <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_color.jpg" class="field_main_img">
         </div>
+		<p>
+			<br>
+			Above are comparison images for {{galname}}-field{{fieldnum}}.
+			Hold your cursor over one of the three colored rectangles of each section
+			(or the mask button) to see the image. Clicking on a colored
+			rectangle will open the source image as a large (~10 MB) jpeg file.
+			The completeness (Comp.) of the artificial star tests sections
+			indicates the percentage of generated stars recovered given the
+			selection culls of the pipeline. The F606W offset indicates the
+			difference between the F606W input magnitude of the artificial star
+			and the magnitude subsequently measured by the pipeline. The
+			photometric catalogs and further analysis can be found further down
+			the page.
+			<br><br>
+		</p>
+		<p>
+			Below is the CMD of stars in {{galname}}-field{{fieldnum}}. Regions
+			defining the young and old stars plotted above are shaded blue and
+			red respectively. Further details of this plot can be found
+			<a href="../data.html#trgb">here</a>.
+			<br><br>
+		</p>
+
         <div class="field_descrip">
-            <div>
-                text
-            </div>
             <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_cmd.png" class="field_cmd">
+			<p>
+				<br><br><br><br><br><br>
+				An individual measurement of The Tip of the Red Giant Branch
+				(TRGB) was not recorded for NGC7814-field01.
+
+				However, the average distance modulus for the whole galaxy, as
+				indicated by the dashed red line, is: <b>{{distmod}} ±
+				{{distmod_unc}} mag</b>. This equates to a distance of <b>{{dist}} ±
+				{{dist_unc}} Mpc</b>.
+			</p>
         </div>
 
         <div class="field_diagnostics">

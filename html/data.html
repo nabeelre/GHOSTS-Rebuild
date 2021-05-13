@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="title" content="GHOSTS">
+	<meta name="subject" content="The GHOSTS Survey.">
+	<meta name="description" content="Homepage of the GHOSTS project.">
+	<meta name="keywords" content="galaxies, galaxy evolution, GHOSTS, halos,
+								   galaxy halos, resolved, stellar populations">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="googlebot" content="noindex, nofollow">
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<title>About - GHOSTS</title>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="nav">
+    <div id="title">GHOSTS HST Survey</div>
+	<div id="nav_links_wrapper">
+		<div class="nav_link"><a href="index.html">Home</a></div>
+		<div class="nav_link"><a href="about.html">About</a></div>
+		<div class="nav_link"><a href="data.html">Data</a></div>
+		<div class="nav_link"><a href="team.html">Team</a></div>
+		<div class="nav_link"><a href="https://ui.adsabs.harvard.edu/public-libraries/ajDQq6GaSx-vwnzYhmK-lQ" target="_blank">Publications</a></div>
+		<div class="nav_link"><a href="survey.html">Survey</a></div>
+	</div>
+</div>
+<div id="main">
+    <h2 class="page_title">GHOSTS Data Products</h2>
+    <div id="data_content">
+        <p>
+            The <a href="http://adsabs.harvard.edu/abs/2011ApJS..195...18R"
+            class="lnk" target="_blank">GHOSTS survey paper</a> details the
+            analysis and reduction of the survey data. Part of that work is
+            summarized below in describing the data available from this
+            website.<br><br>
+        </p>
+
+        <h3>The Stellar Catalog - <font face="courier">*.stars.fits.gz</font></h3>
+        <p>
+            This FITS file contains the final filtered catalog of stars, listed
+            in separate binary tables for photometry using either the sparse- or
+            crowded-field parameters together with the corresponding selection
+            criteria described in Section 4.2 of the
+            <a href="http://adsabs.harvard.edu/abs/2011ApJS..195...18R" class="lnk" target="_blank">GHOSTS survey paper</a>.
+            The columns are:
+        </p>
+        <ol>
+            <li><b>X</b> - relative to the <a href="#drizzle">F814W drizzled image</a></li>
+            <li><b>Y</b> - relative to the <a href="#drizzle">F814W drizzled image</a></li>
+            <li><b>RA</b> - computed from the <a href="#drizzle">F814W drizzled image</a></li>
+            <li><b>DEC</b> - computed from the <a href="#drizzle">F814W drizzled image</a></li>
+            <li><b>MAG1_ACS</b> - Magnitude in the filter listed under the
+                header keyword "FILTER1" (typically F606W) in
+                <a href="http://www.stsci.edu/hst/acs/analysis/zeropoints/#zeropoints"target="_blank">VEGAMAG</a>
+            </li>
+            <li><b>MAG1_JC</b> - Magnitude in the equivalent Johnson-Cousins
+                filter (<em>V</em> for F606W), computed using the updated
+                <a href="http://adsabs.harvard.edu/abs/2005PASP..117.1049S" target="_blank">Sirianni et al. (2005)</a>
+                transformations
+            </li>
+            <li><b>MAG1_ERR</b> - Magnitude error in VEGAMAG</li>
+            <li><b>CHI1</b> - Chi value of the fit for the "FILTER1" detection</li>
+            <li><b>SNR1</b> - Signal to Noise ratio for the "FILTER1" detection</li>
+            <li><b>SHARP1</b> - Sharpness of the "FILTER1" detection
+                (see <a href="http://americano.dolphinsim.com/dolphot/dolphot.ps.gz">DOLPHOT Manual</a>)
+            </li>
+            <li><b>ROUND1</b> - Roundness of the "FILTER1" detection
+                (see <a href="http://americano.dolphinsim.com/dolphot/dolphot.ps.gz">DOLPHOT Manual</a>)
+            </li>
+            <li><b>CROWD1</b> - Crowding of the "FILTER1" detection
+                (see <a href="http://americano.dolphinsim.com/dolphot/dolphot.ps.gz">DOLPHOT Manual</a>)
+            </li>
+            <li><b>FLAG1</b> - Error flag for the "FILTER1" detection. An error flag
+                of zero means the star was recovered extremely well in the image,
+                other values added to the flag indicate the type of problem: (+1)
+                photometry aperture extends off chip, (+2) too many bad or saturated
+                pixels, (+4) saturated at center of star, (+8) extreme case of one of the
+                above
+            </li>
+            <li><b>MAG2_ACS</b> - Magnitude in the filter listed under the
+                header keyword "FILTER2" (typically F814W) in
+                <a href="http://www.stsci.edu/hst/acs/analysis/zeropoints/#zeropoints" target="_blank">VEGAMAG</a>
+            </li>
+            <li><b>MAG2_JC</b> - Magnitude in the equivalent Johnson-Cousins
+                filter (<em>I</em> for F814W), computed using the updated
+                <a href="http://adsabs.harvard.edu/abs/2005PASP..117.1049S" target="_blank">Sirianni et al. (2005)</a>
+                transformations
+            </li>
+            <li><b>MAG2_ERR</b> - Magnitude error in VEGAMAG</li>
+            <li><b>CHI2</b> - Chi value of the fit for the "FILTER2" detection</li>
+            <li><b>SNR2</b> - Signal to Noise ratio for the "FILTER2" detection </li>
+            <li><b>SHARP2</b> - Sharpness of the "FILTER2" detection
+                (see <a href="http://americano.dolphinsim.com/dolphot/dolphot.ps.gz">DOLPHOT Manual</a>)
+            </li>
+            <li><b>ROUND2</b> - Roundness of the "FILTER1" detection
+                (see <a href="http://americano.dolphinsim.com/dolphot/dolphot.ps.gz">DOLPHOT Manual</a>)
+            </li>
+            <li><b>CROWD2</b> - Crowding of the "FILTER1" detection
+                (see <a href="http://americano.dolphinsim.com/dolphot/dolphot.ps.gz">DOLPHOT Manual</a>)
+            </li>
+            <li><b>FLAG2</b> - Error flag for the "FILTER2" detection. An error flag
+                of zero means the star was recovered extremely well in the image,
+                other values added to the flag indicate the type of problem: (+1)
+                photometry aperture extends off chip, (+2) too many bad or saturated
+                pixels, (+4) saturated at center of star, (+8) extreme case of one of the
+                above
+            </li>
+        </ol>
+        <p>
+            The header of the FITS file also lists the zero-point corrections
+            applied, together with additional data such as completeness at
+            F606W-F814W = 0.75 (as computed from the artificial star tests) and
+            the detected TRGB magnitude.<br><br>
+        </p>
+
+        <h3><a name="rawcatalog"></a>Raw Photometry - <font face="courier">*.phot_sparse.gz *.phot_crowded.gz</font></h3>
+        <p>
+            These files contain the raw <font face="courier">*.phot</font>
+            output from the
+            <a href="http://americano.dolphinsim.com/" target="_blank">DOLPHOT photometry code</a>.
+            The columns in the files are described in the
+            <a href="http://americano.dolphinsim.com/dolphot/dolphot.ps.gz">DOLPHOT Manual</a>.
+            <br><br>
+        </p>
+
+        <h3><a name="param"></a>DOLPHOT Parameter Files - <font face="courier">*.param</font/></h3>
+        <p>
+            These files list the input parameters for the DOLPHOT photometry
+            code. Further details can be found in the
+            <a href="http://americano.dolphinsim.com/dolphot/dolphot.ps.gz">DOLPHOT Manual</a>.
+            <br><br>
+        </p>
+
+        <h3><a name="artificial"></a>Artificial Star Tests - <font face="courier">*.artificial.fits.gz</font></h3>
+        <p>
+            This FITS file contains the three-dimensional probability
+            distribution of recovering a star as a function of the F606W-F814W
+            color, magnitude in the F606W filter and background sky brightness
+            (measured from the <a href="#sky">Sky image</a>). Bins without
+            sufficient coverage in the artificial star tests to compute a
+            probability are set to zero. The axes ranges are listed in the
+            header of each three-dimensional image, with the exception of sky
+            brightness, which is given separately as a binary table embedded in
+            the same fits file, and lists the sky brightness of each
+            bin.
+            <br><br>
+            <em>
+                - Note that as of November, 2011, the artificial star tests
+                are not yet available for most of the "Crowded" field runs.
+            </em>
+            <br><br>
+        </p>
+
+        <h3><a name="drizzle"></a>Multidrizzling - <font face="courier">*.drz.fits.gz</font></h3>
+        <p>
+            The cleaned reference images in the F606W and F814W filters as
+            computed with MultiDrizzle. We followed the standard steps outlined
+            in the
+            <a href="http://www.stsci.edu/hst/HST_overview/documents/multidrizzle" target="_blank">MultiDrizzle Handbook (Fruchter & Sosey 2009)</a>
+            but initially ran TweakShifts on all the CCD images for a given
+            target. This task computed any residual shifts between the WCS of
+            the observations and ensured that the final drizzled images for both
+            filters used the same coordinate system. As MultiDrizzle updates the
+            header of the <font face="courier">*_flt</font> files, we also
+            turned off sky subtraction, and correspondingly set pixfrac = 1.0,
+            to ensure proper treatment of Poissonian noise by the photometry
+            code. The image from the F814W filter is used for coordinate
+            references.
+            <br><br>
+        </p>
+
+        <h3><a name="galmask"></a>Galaxy Mask - <font face="courier">*.gmsk.fits.gz</font></h3>
+        <p>
+            Where applicable, we provide the galaxy mask that was used to
+            exclude spurious detections of extended objects coincident with the
+            host galaxy disk, and to exclude high extinction regions when
+            calculating the TRGB distance. These are computed by clipping
+            the <a href="data.html#sky">sky image</a> at a given brightness
+            limit before sub-sampling with a 15x15 <em>IRAF blkav</em> kernel,
+            smoothing with a 25x25 <em>IRAF median</em> filter, and block
+            replicating back to the original size with <em>IRAF blkrep</em>.
+            <br><br>
+        </p>
+
+        <h3><a name="mask"></a>Data Mask - <font face="courier">*.seg.fits.gz</font></h3>
+        <p>
+            This fits file contains the segmentation mask, which identifies the
+            extended objects from the <a href="#SE">Source Extractor catalog</a>
+            in the drizzled images. The mask is passed through a maximum filter
+            (7 x 7 pixels in size) to pad the mask for each extended object.
+            This padding ensures that detections which lie on the periphery of
+            an extended object are removed, as typically these detections are
+            associated with the extended object itself.
+            <br><br>
+            During the initial photometry stages, it was observed that the
+            photometry code was less effective at detecting sources within the
+            halos of bright foreground stars. In fields far from the main galaxy
+            disk, this effect can be corrected by artificial star
+            tests. However, this is not necessarily the case in fields where
+            bright regions are not only due to the halos of these foreground
+            stars but also due to the galaxy disk itself. To ensure this effect
+            did not impinge upon our results, we excluded by hand a larger
+            region surrounding these few foreground stars.  These regions are
+            included in the segmentation mask to ensure proper calculation of the
+            survey window.
+            <br><br>
+        </p>
+
+        <h3><a name="SE"></a>SourceExtractor Catalog - <font face="courier">*.se</font></h3>
+        <p>
+            the F814W
+            <a href="http://www.astromatic.net/software/sextractor" target="_blank">SExtractor</a>
+            catalog from which the <a href="#mask">segmentation mask</a> is
+            constructed. The SExtractor parameters used are described in the
+            <a href="http://adsabs.harvard.edu/abs/2011ApJS..195...18R" class="lnk" target="_blank">GHOSTS survey paper</a>.
+            <br><br>
+            The SExtractor catalog contains structural parameters that have proven
+            useful to separate galaxies from stars in previous work (e.g.,
+            <a href="http://adsabs.harvard.edu/abs/2005AJ....129.1396H" target="_blank">Holwerda et al. 2005</a>).
+            These parameters include a simple concentration index, defined as
+            the ratio of the peak surface brightness to the total luminosity in
+            the pixels above 1.6 sigma (mu_max/mag_iso), the number of pixels in
+            the object (isoarea_image), the ellipticity (= 1-minor/major axis
+            ratio), and the FWHM (fwhm_image). SExtractor's own star/galaxy
+            classification is also included even though the procedure has not
+            been calibrated on HST images and becomes random well above the
+            detection limit.
+            <br><br>
+        </p>
+
+        <h3><a name="sky"></a>Sky Image - <font face="courier">*.sky.fits.gz</font></h3>
+        <p>
+            The background sky image computed by running the
+            <font face="courier">calcsky</font> routine included in the DOLPHOT
+            package on the <a href="#drizzle">drizzled F814W image</a>. This
+            file is used for sky brightness in the
+            <a href="#artificial">artificial star tests</a>.
+            <br><br>
+        </p>
+
+        <h3><a name="trgb"></a>TRGB Plots</h3>
+        <p>
+            Where available, a plot of the tip of the red giant branch (TRGB)
+            detection is shown for an individual field.
+        </p>
+
+        <p>
+            To measure the apparent magnitude of the TRGB, we follow the same
+            method employed by
+            <a href="http://adsabs.harvard.edu/abs/2005AJ....129.1331S" target="_blank">Seth et al. (2005a)</a>.
+            Specifically, we used the logarithmic edge-detection algorithm defined in
+            <a href="http://adsabs.harvard.edu/abs/2002AJ....124..213M" target="_blank">Mendez et al. (2002)</a>
+            on stars selected with a color cut to remove both main sequence and
+            redder asymptotic giant branch stars. This cut was typically set at
+            0.3 < F606W - F814W < 1.6 but for fields with significant
+            helium-burning sequences the range was shifted to redder colors
+            (>1.0 mag). These intermediate-age stars are typically confined to
+            the galaxy disks, but for a few systems, notably
+            <a href="ngc2403/ngc2403.html">NGC 2403</a> and
+            <a href="ngc5236/ngc5236.hmtl">NGC 5236</a>, they can be far removed
+            from the galaxy center. Generally, we only report TRGB measurements
+            for fields that do not cover the main galaxy disk. This further
+            minimizes contamination from younger stars and reduces the effects
+            of internal extinction and crowding. However, for systems with only
+            one field, or for galaxies that are sufficiently distant to easily
+            discriminate the disk and halo populations in the same field, we
+            still measured the TRGB. For these fields, we excluded the stars in
+            regions of high surface brightness by using the galaxy masks
+            <a href="data.html#galmask">described above</a>. Additionally, we
+            only included fields with enough stars for convergence in the
+            detection. Typically, this required at least 10 stars within the
+            color cut and within 0.25 mag of the TRGB.
+        </p>
+
+        <p>
+            The <b>upper panel</b> of these plots show the number of stars in the
+            culled region as a function of F814W magnitude, while the <b>middle
+            panel</b> plots the response of the
+            <a href="http://adsabs.harvard.edu/abs/2002AJ....124..213M" target="_blank">Mendez et al. (2002)</a>
+            edge-detection algorithm to this distribution.
+        </p>
+
+        <p>
+            Random errors in the TRGB detections were assessed by reprocessing
+            500 Monte Carlo resamples of the stellar magnitudes with
+            replacement. At the TRGB magnitude, these random errors dominate the
+            stellar photometric errors reported by DOLPHOT.  Hence an
+            uncertainty in the TRGB magnitude was assigned by fitting a Gaussian
+            to the distribution of the resamples. This fits, as well as the
+            resamples are plotted in the <b>bottom panel</b>.
+            <br><br>
+        </p>
+    </div>
+</div>
+</div>
+
+<div id="footer">
+<div id="footer-content">
+	2015 Roelof de Jong, and the GHOSTS team. Leibniz-Institut fuer
+	Astrophysik Potsdam (AIP), An der Sternwarte 16, 14482 Potsdam, Germany
+	<br> email: rdejong at aip dot de
+</div>
+</div>
+
+</body>
+</html>

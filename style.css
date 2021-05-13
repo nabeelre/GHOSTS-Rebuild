@@ -209,6 +209,21 @@ p {
 }
 
 /*                     */
+/*  data.html specific */
+/*                     */
+
+#data_content {
+	/* Wrapper for content */
+	max-width: 1200px;
+	padding: 10px;
+}
+
+h3 {
+	/* padding-left: 15px; */
+}
+
+
+/*                     */
 /*  team.html specific */
 /*                     */
 
@@ -279,7 +294,7 @@ area {
 /*                     */
 
 .field_wrapper {
-	max-width: 1000px;
+	max-width: 695px;
 	border: 0;
 	padding: 10px;
 	display: flex;
@@ -289,7 +304,7 @@ area {
 .field_img_switcher {
 	display: flex;
 	flex-direction: row;
-	max-width: 1000px
+	max-width: 695px
 }
 
 .field_main_img {
@@ -301,49 +316,49 @@ area {
 	display: flex;
 	flex-direction: column;
 	height: 600px;
-	width: 50px;
+	width: 95px;
 	padding-right: 10px;
 }
 
 .filter_controller {
 	height: 170px;
-	width: 50px;
+	width: 95px;
 	padding-bottom: 10px;
 }
 
 .stars_controller {
 	height: 170px;
-	width: 50px;
+	width: 95px;
 	padding-bottom: 10px;
 }
 
 .mask_controller {
 	height: 60px;
-	width: 50px;
+	width: 95px;
 	padding-bottom: 10px;
 }
 
 .afs_controller {
 	height: 170px;
-	width: 50px;
+	width: 95px;
 }
 
 .field_descrip {
 	display: flex;
 	flex-direction: row;
-	width: 200px;
+	width: 695px;
 	max-height: 550px;
 }
 
 .field_cmd {
 	height: auto;
-	max-width: 300px;
+	max-width: 375px;
+	padding-left: 10px;
 	padding-bottom: 10px;
 }
 
-
-
 .field_diag_img {
 	max-width: 650px;
+	padding-left: 10px;
 	padding-bottom: 10px;
 }
