@@ -5,7 +5,34 @@
 {% block metadata %}
 	{{ super() }}
 {% endblock %}
-
+{% block script %}
+	<script type="text/javascript">
+		if (document.images) {
+		    image=new Image();
+		    image.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_color.jpg";
+		    filters1=new Image();
+		    filters1.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_color.jpg";
+		    filters2=new Image();
+		    filters2.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_f606w.jpg";
+		    filters3=new Image();
+		    filters3.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_f814w.jpg";
+			stars1=new Image();
+		    stars1.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_old.jpg";
+			stars2=new Image();
+		    stars2.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_stars.jpg";
+		    stars3=new Image();
+		    stars3.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_young.jpg";
+			tests1=new Image();
+		    tests1.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_comp.jpg";
+		    tests2=new Image();
+		    tests2.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_offsets.jpg";
+		    mask=new Image();
+		    mask.src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_mask.jpg";
+			function change(name) {
+				document.getElementById("field_main_img").src = eval(name+".src");
+			}
+		}
+	</script>{% endblock %}
 {% block nav %}
 		{{ super() }}
 {% endblock %}
@@ -16,12 +43,30 @@
     <div class="field_wrapper">
         <div class="field_img_switcher">
             <div class="controllers">
-                <img src="../../images/filter_switcher.png" class="filter_controller">
-                <img src="../../images/stars_switcher.png" class="stars_controller">
-                <img src="../../images/mask_switcher.png" class="mask_controller">
-                <img src="../../images/afs_switcher.png" class="afs_controller">
+                <img src="../../images/filter_switcher.png" class="filter_controller" usemap="#filtermap">
+				<map name="filtermap">
+				    <area target="" alt="combined" onmouseover="change('filters1')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_color.jpg" coords="4,4,90,55" shape="rect">
+				    <area target="" alt="f814w" onmouseover="change('filters2')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_f606w.jpg" coords="4,62,90,110" shape="rect">
+				    <area target="" alt="f606w" onmouseover="change('filters3')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_f814w.jpg" coords="4,114,90,165" shape="rect">
+				</map>
+                <img src="../../images/stars_switcher.png" class="stars_controller" usemap="#starmap">
+				<map name="starmap">
+				    <area target="" alt="old" onmouseover="change('stars1')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_old.jpg" coords="4,4,90,55" shape="rect">
+				    <area target="" alt="all" onmouseover="change('stars2')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_stars.jpg" coords="4,62,90,110" shape="rect">
+				    <area target="" alt="young" onmouseover="change('stars3')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_young.jpg" coords="4,114,90,165" shape="rect">
+				</map>
+                <img src="../../images/mask_switcher.png" class="mask_controller" usemap="#maskmap">
+				<map name="maskmap">
+				    <area target="" alt="old" onmouseover="change('mask')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_mask.jpg" coords="4,4,91,56" shape="rect">
+				</map>
+                <img src="../../images/afs_switcher.png" class="afs_controller" usemap="#testmap">
+				<map name="testmap">
+				    <area target="" alt="observation" onmouseover="change('filters1')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_color.jpg" coords="4,4,90,55" shape="rect">
+				    <area target="" alt="comp" onmouseover="change('tests1')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_comp.jpg" coords="4,62,90,110" shape="rect">
+				    <area target="" alt="offsets" onmouseover="change('tests2')" href="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_offsets.jpg" coords="4,114,90,165" shape="rect">
+				</map>
             </div>
-            <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_color.jpg" class="field_main_img">
+            <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_color.jpg" id="field_main_img">
         </div>
 		<p>
 			<br>
@@ -67,9 +112,8 @@
             <img src="../../images/{{galname}}/{{galname}}-field{{fieldnum}}_chi.png" class="field_diag_img">
         </div>
     </div>
-
-
 {% endblock %}
+
 {% block footer -%}
 	{{ super() }}
 {%- endblock %}
