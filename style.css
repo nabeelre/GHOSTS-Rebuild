@@ -64,21 +64,27 @@ body {
 	font-size: 22pt;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 825px) {
 	#nav_links_wrapper {
-		font-size: 12pt;
+		font-size: 14pt;
 	}
 	#title {
 		font-size: 18pt;
 	}
 }
 
-@media (max-width: 825px) {
+@media (max-width: 680px) {
 	#nav_links_wrapper {
-		font-size: 8pt;
+		font-size: 12pt;
 	}
 	#title {
 		font-size: 14pt;
+	}
+}
+
+@media (max-width: 560px) {
+	#title {
+		font-size: 10pt;
 	}
 }
 
@@ -105,7 +111,11 @@ body {
 
 #footer-content {
 	height: 32px;
-	padding-top: 14px;
+	padding-top: 7px;
+}
+
+#footer-content a {
+	color: #5e5e5e
 }
 
 h1 {

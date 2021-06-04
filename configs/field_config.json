@@ -1,15 +1,2264 @@
 [
     {
-        "title": "ngc0247-field01",
-        "out_path": "ngc0247/",
+        "title": "NGC0247-field01",
+        "out_path": "NGC0247/",
         "template": "field_template.html",
         "context": {
             "galname": "NGC0247",
             "fieldnum": "01",
-            "distmod": 0.00,
-            "distmod_unc": 0.00,
-            "dist": 0.00,
-            "dist_unc": 0.00
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0247-field02",
+        "out_path": "NGC0247/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0247",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0247-field03",
+        "out_path": "NGC0247/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0247",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0247-field04",
+        "out_path": "NGC0247/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0247",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0247-field05",
+        "out_path": "NGC0247/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0247",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field01",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field02",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field03",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field04",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field05",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field06",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field07",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field08",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field09",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "09",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field10",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "10",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field11",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "11",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field12",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "12",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field13",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "13",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field14",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "14",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field15",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "15",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field16",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "16",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field17",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "17",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field18",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "18",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field19",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "19",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0253-field20",
+        "out_path": "NGC0253/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0253",
+            "fieldnum": "20",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0300-field01",
+        "out_path": "NGC0300/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0300",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field01",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field02",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field03",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field04",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field05",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field06",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field07",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field08",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field09",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "09",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field10",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "10",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field11",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "11",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field12",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "12",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC0891-field13",
+        "out_path": "NGC0891/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC0891",
+            "fieldnum": "13",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field01",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field02",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field03",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field04",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field05",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field06",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field07",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field08",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field09",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "09",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field10",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "10",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field11",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "11",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field12",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "12",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field13",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "13",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field14",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "14",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field15",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "15",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field16",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "16",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC2403-field17",
+        "out_path": "NGC2403/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC2403",
+            "fieldnum": "17",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field01",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field02",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field03",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field04",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field05",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field06",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field07",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field08",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field09",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "09",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field10",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "10",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field11",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "11",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field12",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "12",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field13",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "13",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field14",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "14",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field15",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "15",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field16",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "16",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field17",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "17",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field18",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "18",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field19",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "19",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field20",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "20",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field21",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "21",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field22",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "22",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field23",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "23",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field24",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "24",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field25",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "25",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field26",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "26",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field27",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "27",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3031-field28",
+        "out_path": "NGC3031/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3031",
+            "fieldnum": "28",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC3510-field01",
+        "out_path": "NGC3510/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC3510",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field01",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field02",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field03",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field04",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field05",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field06",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field07",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field08",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field09",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "09",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field10",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "10",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field11",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "11",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4244-field12",
+        "out_path": "NGC4244/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4244",
+            "fieldnum": "12",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field01",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field02",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field03",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field04",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field05",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field06",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field07",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field08",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field09",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "09",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field10",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "10",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field11",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "11",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4565-field12",
+        "out_path": "NGC4565/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4565",
+            "fieldnum": "12",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field01",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field02",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field03",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field04",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field05",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field06",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field07",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field08",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field09",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "09",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4631-field10",
+        "out_path": "NGC4631/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4631",
+            "fieldnum": "10",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4736-field01",
+        "out_path": "NGC4736/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4736",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4736-field02",
+        "out_path": "NGC4736/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4736",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4736-field03",
+        "out_path": "NGC4736/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4736",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4736-field04",
+        "out_path": "NGC4736/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4736",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4736-field05",
+        "out_path": "NGC4736/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4736",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field01",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field02",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field03",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field04",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field05",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field06",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field07",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field08",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field09",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "09",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field10",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "10",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field11",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "11",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC4945-field12",
+        "out_path": "NGC4945/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC4945",
+            "fieldnum": "12",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5023-field01",
+        "out_path": "NGC5023/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5023",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5023-field02",
+        "out_path": "NGC5023/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5023",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5023-field03",
+        "out_path": "NGC5023/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5023",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field01",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field02",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field03",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field04",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field05",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field06",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field07",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field08",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field09",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "09",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field10",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "10",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field11",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "11",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field12",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "12",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field13",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "13",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5236-field14",
+        "out_path": "NGC5236/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5236",
+            "fieldnum": "14",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5457-field01",
+        "out_path": "NGC5457/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5457",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC5907-field01",
+        "out_path": "NGC5907/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC5907",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7793-field01",
+        "out_path": "NGC7793/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7793",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7793-field02",
+        "out_path": "NGC7793/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7793",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7793-field03",
+        "out_path": "NGC7793/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7793",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7793-field04",
+        "out_path": "NGC7793/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7793",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7793-field05",
+        "out_path": "NGC7793/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7793",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7793-field06",
+        "out_path": "NGC7793/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7793",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7793-field07",
+        "out_path": "NGC7793/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7793",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7793-field08",
+        "out_path": "NGC7793/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7793",
+            "fieldnum": "08",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7814-field01",
+        "out_path": "NGC7814/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7814",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7814-field02",
+        "out_path": "NGC7814/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7814",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7814-field03",
+        "out_path": "NGC7814/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7814",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7814-field04",
+        "out_path": "NGC7814/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7814",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7814-field05",
+        "out_path": "NGC7814/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7814",
+            "fieldnum": "05",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7814-field06",
+        "out_path": "NGC7814/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7814",
+            "fieldnum": "06",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "NGC7814-field07",
+        "out_path": "NGC7814/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "NGC7814",
+            "fieldnum": "07",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "IC5052-field01",
+        "out_path": "IC5052/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "IC5052",
+            "fieldnum": "01",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "IC5052-field02",
+        "out_path": "IC5052/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "IC5052",
+            "fieldnum": "02",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "IC5052-field03",
+        "out_path": "IC5052/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "IC5052",
+            "fieldnum": "03",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
+        }
+    },
+    {
+        "title": "IC5052-field04",
+        "out_path": "IC5052/",
+        "template": "field_template.html",
+        "context": {
+            "galname": "IC5052",
+            "fieldnum": "04",
+            "distmod": 0.0,
+            "distmod_unc": 0.0,
+            "dist": 0.0,
+            "dist_unc": 0.0
         }
     }
 ]
