@@ -5,16 +5,6 @@ html {
 	padding: 0px;
 }
 
-body {
-	margin: 0px;
-	padding: 0px;
-	font-family: sans-serif;
-	background-color: #efefef;
-	display: flex;
-  	flex-direction: column;
-  	min-height: 100%;
-}
-
 #wrapper {
 	flex: 1;
   	padding: 0px;
